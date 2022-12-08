@@ -1,11 +1,10 @@
 @import "config"
 
-
 /*==========  Desktop First  ==========*/
 
 // ≥1200px
 @media screen and (max-width: 1200px)
-
+    body
 // ≥992px
 @media screen and (max-width: 992px)
     .about-block
@@ -14,36 +13,36 @@
 // ≥768px
 @media screen and (max-width: 768px)
     .border-class
-        margin-bottom: 15px 
-    .servise-view-top-page 
-        :not(:nth-child(2))
+        margin-bottom: 15px
+    .servise-view-top-page
+        &:not(:nth-child(2))
             border-left: none !important
-            
-    .servise-view-top-page 
-        :not(:last-child)
+
+    .servise-view-top-page
+        &:not(:last-child)
             border-left: none !important
 
     .section-block
-        div:nth-child(even)	
+        div:nth-child(even)
             border-top: 1px solid $accent
             border-bottom: none !important
             border-left: none !important
             border-right: none !important
+
 // ≥576px
 @media screen and (max-width: 576px)
-
-
-/*==========  Mobile First  ==========*/
+    body
+//*==========  Mobile First  ==========*/
 
 // ≤576px
 @media screen and (min-width: 576px)
-
+    body
 // ≤768px
 @media screen and (min-width: 768px)
-    
+    body
 // ≤992px
 @media screen and (min-width: 992px)
-
+    body
 // ≤1200px
 @media screen and (min-width: 1200px)
-
+    body

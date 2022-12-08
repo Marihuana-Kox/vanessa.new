@@ -21,7 +21,6 @@ $(function () {
 		var $scroll = $(window).scrollTop() + $(window).height();
 		
 		if (offset < $scroll && $counter == 0){
-			console.log($scroll+" : "+offset+" - "+$counter);
 			counter_off(coun);
 			$counter = 1;
 		}

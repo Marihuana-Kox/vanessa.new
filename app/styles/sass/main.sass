@@ -27,7 +27,9 @@ h3
 	font-size: 2.5rem
 h4
 	font-size: 2rem	
-	
+.section-title
+	color: rgba(0,0,0,.8)
+
 .masked
 	&::after
 		background-color: rgba(0,0,0,0.2)
@@ -39,7 +41,7 @@ h4
 	position: relative
 	margin-top: -7rem
 	color: #f7f7f7
-	:not(:first-child)
+	&:not(:first-child)
 		border-left: 2px dotted white
 	i 
 		font-size: 5rem
@@ -47,12 +49,12 @@ h4
 		line-height: 1
 
 .border-class
-	background: $accent
+	background-color: $accent
 	padding: 0
 	cursor: pointer
 	background-origin: padding-box
 	overflow: hidden
-	&:after
+	&::after
 		content: " "
 		position: absolute
 		top: 0
@@ -84,7 +86,7 @@ h4
 .servise-view-box
 	margin: 10% 10% 20px
 	outline-width: 5px 
-	:last-child
+	&:last-child
 		border-left: none
 
 .special-box-inner
@@ -106,4 +108,6 @@ h4
 		border-right: 1px solid $accent
 
 .video-section
-	background-color: red
+	background: #f7f7f7
+	p
+		color: rgba(0,0,0,.8)
