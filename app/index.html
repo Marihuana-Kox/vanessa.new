@@ -1,72 +1,685 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE HTML>
+	<html>
+	<head>
+	<meta  charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Сайт - психиатра, нарколога, гипнолога</title> 
 
-<head>
+	<!-- Favicons -->
 
-	<meta charset="utf-8">
-	<!-- <base href="/"> -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-	<title>OptimizedHTML 4</title>
-	<meta name="description" content="">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-	<!-- Template Basic Images End -->
-	
-	<!-- Custom Browsers Color Start -->
-	<meta name="theme-color" content="#000">
-	<!-- Custom Browsers Color End -->
-
-	<link rel="stylesheet" href="css/main.min.css">
+	<!-- Styles -->
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	 
+	<link rel="stylesheet" href="css/vanessa_css/style.css">
+	<link rel="stylesheet" href="css/app.min.css" media="screen">
 
 </head>
 
 <body>
+<!--#include virtual="/parts/header.html" -->
+<!-- Loader -->
 
-	<!-- Custom HTML -->
+  <div class="loader">
+    <div class="loader-brand"><img alt="" class="img-responsive center-block" src="images/img/vanessa_logotype_whte.png"></div>
+  </div>
 
-	<div class="container">
+  <div id="layout" class="layout">
+  
+    <!-- Header -->
 
-		<div class="row">
+    <header id="top" class="navbar js-navbar-affix">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#layout" class="brand js-target-scroll">
+            <img class="brand-img-white" alt="" width="120" src="images/img/vanessa_logotype_whte.png" >
+            <img class="brand-img" alt="" width="110" src="images/img/vanessa_logotype.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse"> 
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#layout">Домой</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#features1">Сервис</a></li>  
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-			<div class="col-8 offset-2">
-				
-				<img class="img-responsive"
-					src="img/@1x/preview.jpg"
-					srcset="img/@1x/preview.jpg 1x, img/@2x/preview.jpg 2x"
-					alt="Start HTML5 Template">
+    <!-- Home -->
+    
+    <main id="home" class="masthead masked">
+      <div class="opener rel-1">
+        <div class="container">
+          <div class="row">
+            <div class="lead col-lg-6">
+              <h1>Поднимите свою жизнь на новый уровень.</h1>
+              <p class="lead-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+              <div class="lead-controls">
+                <a href="#request" class="btn-lead btn" data-toggle="modal">Напишите мне</a>
+                <a href="http://www.youtube.com/watch?v=ANwf8AE3_d0" class="text-white play play-home js-play">
+                  <i class="fa fa-play-circle"></i>
+                  Watch video
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-				<br>
+    <!-- Content -->
 
-				<h2>Welcome to startup HTML template OptimizedHTML 4!</h2>
+    <div class="content">
 
-				<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Ad distinctio animi, dolorum eaque praesentium unde aliquid, mollitia itaque voluptate quos modi et incidunt tempora fugiat voluptatum quia esse dolor repellat.</p>
-				<p>Nemo velit incidunt assumenda, eaque, sequi vitae facilis doloribus qui totam, fuga iure dignissimos ab non praesentium. Vitae similique, corrupti aliquam nam modi explicabo distinctio qui cum officia ullam quam!</p>
-				<p>Aperiam veritatis debitis quibusdam animi totam quos mollitia aspernatur porro consectetur id quod tempore numquam, ullam ex quae quasi voluptatem incidunt placeat asperiores quas autem! Labore modi quae nulla illo!</p>
+      <!-- Partners  -->
+      <section id="partners" class="partners bgc-light">
+        <!-- <div class="container"> -->
+        <div class="container">
+            <div class="row servise-view-top-page">
+                <div class="col-md-4 col-12 border-class">
+                    <div class="servise-view-box">
+                        <i class="flaticon-first-aid-kit d-inline-block"></i>
+                        <div class="special-box-inner">
+                            <h4>Специализированная терапия и поддержка</h4>
+                            <p>Далеко-далеко за словесными горами в стране гласных.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 border-class order-5">
+                    <div class="servise-view-box">
+                        <i class="flaticon-brain d-inline-block"></i>
+                        <div class="special-box-inner">
+                            <h4>Диагностика и расследование</h4>
+                            <p>Далеко-далеко, за словесными горами в стране.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 border-class order-1">
+                    <div class="servise-view-box">
+                        <i class="flaticon-pharmacy d-inline-block"></i>
+                        <div class="special-box-inner">
+                            <h4>Медицинское лечение и хирургия</h4>
+                            <p>Далеко-далеко за словесными горами в стране гласных и согласных.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
 
-				<br>
+      <!-- About  -->
 
-				<div class="row">
+      <section id="about" class="about text-center section">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2>Могу я чем-нибудь помочь</h2>
+              <p>Мы можем обсудить ваши проблемы</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="row row-columns row-padding section-block">
+              <div class="column column-padding col-md-4">
+                <i class="icon fa fa-5x fa-user-md"></i>
+                <h3>Мы можем встретится лично</h3>
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных.</p>
+              </div>
+              <div class="column column-padding col-md-4">
+                <i class="icon fa fa-5x fa-phone"></i>
+                <h3>Можем пообщатся по телефону</h3>
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут.</p>
+              </div>
+              <div class="column column-padding col-md-4">
+                <i class="icon fa fa-5x fa-globe"></i>
+                <h3>Можем провести онлайн встречу</h3>
+                <p>Далеко-далеко за словесными горами в стране гласных.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-					<div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quo vero molestias, esse doloribus corrupti, nemo minus ullam tempore tenetur magni aut quos soluta sit adipisci eius expedita amet non.</div>
-					<div class="col-6">Odit enim harum minus nam excepturi quae vitae consectetur repudiandae natus neque ab asperiores repellat quo dicta vel accusamus voluptatum rerum autem eaque rem laudantium, sint veritatis. Minus, unde rem.</div>
+      <!-- Product -->
 
-				</div>
+      <section class="product bgc-light text-center section-sm">
+        <div class="container">
+         <div class="row mrg30">
+            <div class="col-md-12 col-sm-12 col-lg-6 order-lg-1">
+                <div class="about-gal w-100">
+                    <div class="row align-items-end">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="about-gal-img brd-rd10 overflow-hidden position-relative w-100">
+                                <a href="../images/article/psychoterapoia.jpg" data-fancybox="gallery" title="">
+                                  <img class="img-responsive" src="../images/article/psychoterapoia.jpg" alt="Психотерапия"></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-6">
+                <div class="about-block w-100">
+                    <h3><b>ШАГИ К ПСИХОЛОГИЧЕСКОМУ ФИТНЕСУ</b></h3>
+                    <h2>Лучшая в своем классе психиатрическая терапия</h2>
+                    <strong>Для того, чтобы прийти к админу, кто в каких наших учениях?  Если только они не ослеплены похотью. </strong>
+                    <p>Очень важно заботиться о пациенте, за пациентом будут следить, но его мод будет возникать со временем, так как много работы и боли.  На самом деле, если дойти до мельчайших подробностей, никто из нас не занимается никакой работой, кроме как чем-то из самого интернета. </font></p>
+                    <p>Если они не ослеплены похотью, то не выходят; они виновны в том, что покидают должность и умягчают душу, то есть трудятся. </font></p>
+                    <span><i class="flaticon-clock"></i>График посещения: </span>
+                    <span>каждую неделю с понедельника по пятницу: с 9:00 до 17:00.</span>
+                </div>
+            </div>
+        </div>
+       </div>
+      </section>
 
-				<br>
+      <!-- Charts -->
 
-			</div>
-			
-		</div>
+      <section id="charts" class="charts section">
+        <div class="container">
+          <div class="row-columns row-padding row">
+            <div class="column col-md-6 col-md-push-6">
+              <h2 class="section-title">Скольким пациентам я уже помогла</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi reprehenderit explicabo tenetur eos! Excepturi adipisci consequatur quisquam error, velit, pariatur</p>
+            </div>
+            <div class="column col-md-6 col-md-pull-6 text-center">
+              <div class="row-columns row">
+                <div class="column col-pie">
+                  <div class="chart" data-percent="87.3">
+                    <div class="chart-content">
+                      <div class="chart-title">Пациентов</div>
+                      <div class="chart-number">3948</div>
+                      <div class="line line-center"></div>
+                      <div class="chart-type"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="column col-pie">
+                  <div class="chart" data-percent="7.7">
+                    <div class="chart-content">
+                      <div class="chart-title">Пациентов</div>
+                      <div class="chart-number">60.8</div>
+                      <div class="line line-center"></div>
+                      <div class="chart-type"></div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	</div>
+      <!-- Video section -->
 
-	<script src="js/scripts.min.js"></script>
+      <section id="video-section" class="video-section text-white masked section-lg">
+        <div class="container rel-1">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="text-white section-title">Посмотрите мое видео</h2>
+              <p class="text-opacity">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Она рукописи дороге там снова что всеми, не взобравшись. Взгляд буквенных снова собрал вопроса большого маленький рукопись свой одна страна там, рукописи всемогущая курсивных семь продолжил рыбными рыбного запятой рекламных!</p>
+              <p class="top-space">
+                <a  href="http://www.youtube.com/watch?v=ANwf8AE3_d0" class="text-white play js-play"><i class="text-white fa fa-3x fa-play-circle"></i> Watch our video</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</body>
-</html>
+      <!-- Features 1 -->
+
+      <section id="features1" class="features bgc-light section">
+        <div class="container">
+          <div class="row-columns row-padding row">  
+            <div class="col-feature-img column column-padding col-md-5 text-center wow fadeInLeft">
+              <img alt="" class="feature-img" src="images/img/feature-img.png">
+            </div>
+            <div class="col-feature column column-padding col-md-6">
+              <h2 class="section-title">Start getting more</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi reprehenderit explicabo tenetur eos! Excepturi adipisci consequatur quisquam error, velit, pariatur</p>
+              <div class="section-body">
+                <div class="column">
+                  <div class="media-left">
+                    <i class="fa fa-2x fa-rss"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Bootstrap 3x</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="media-left">
+                    <i class="fa fa-2x fa-credit-card"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Font Awesome</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="media-left">
+                    <i class="fa fa-2x fa-cogs"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Clean design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+      <!-- Features 2 -->
+
+      <section id="features2" class="features section">
+        <div class="container">
+          <div class="row-padding row-columns row">
+            <div class="col-feature-img text-center column column-padding col-md-5 col-md-push-7 wow fadeInUp">
+              <img alt="" class="feature-img" src="images/img/feature-img.png">
+            </div>
+            <div class="col-feature column column-padding col-md-7 col-md-pull-5">
+              <h2 class="section-title">Key Features</h2>
+              <div class="row">
+                <div class="col-md-10">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi reprehenderit explicabo tenetur eos! Excepturi adipisci consequatur quisquam error, velit, pariatur</p>
+                </div>
+              </div>
+              <div class="section-body">
+                <div class="row row-columns">
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-flag text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Bootstrap 3x</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-signal text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Font Awesome</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-flask text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Clean design</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-headphones text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Easy to customize</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-signal text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Font Awesome</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                  <div class="column col-md-6">
+                    <div class="media-left">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-flask text-white fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </div>
+                    <div class="media-right">
+                      <h4>Clean design</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+
+      <section id="banner" class="text-white bgc-primary section-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="banner-title text-white">Want to Learn More?</h2>
+            </div>
+            <div class="col-md-5">
+              <span class="text-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, hic officiis commodi reprehenderit explicabo</span>
+            </div>
+            <div class="col-md-3 top-space-sm"><a href="#request" class="btn btn-b-white" data-toggle="modal">Get started</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+        
+      <section id="reviews" class="reviews text-center section">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-6 col-md-offset-3">
+              <h2 class="section-title">Users says about product</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="row">
+              <div class="review-carousel carousel">
+                <div class="review">
+                  <div class="text-center">
+                    <img alt="" class="img-circle" src="images/img/reviews/1.jpg">
+                    <h3>James Thornton</h3>
+                    <i class="fa fa-2x fa-quote-right"></i>
+                    <p>
+                    «Design is the method of putting form and content together; there is no single definition. Design can be aesthetics</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <div class="text-center">
+                    <img alt="" class="img-circle" src="images/img/reviews/2.jpg">
+                    <h3>James Thornton</h3>
+                    <i class="fa fa-2x fa-quote-right"></i>
+                    <p>
+                    «Design is the method of putting form and content together; there is no single definition. Design can be aesthetics</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <div class="text-center">
+                    <img alt="" class="img-circle" src="images/img/reviews/3.jpg">
+                    <h3>James Thornton</h3>
+                    <i class="fa fa-2x fa-quote-right"></i>
+                    <p>
+                    «Design is the method of putting form and content together; there is no single definition. Design can be aesthetics</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <div class="text-center">
+                    <img alt="" class="img-circle"  src="images/img/reviews/1.jpg">
+                    <h3>James Thornton</h3>
+                    <i class="icon-sm fa fa-quote-right"></i>
+                    <p>
+                    «Design is the method of putting form and content together; there is no single definition. Design can be aesthetics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prices -->
+
+      <section id="prices" class="prices text-center masked section" data-stellar-background-ratio="0.7">
+        <div class="container rel-1">
+          <div class="row">
+            <div class="text-center text-white col-md-6 col-md-offset-3">
+              <h2 class="text-white section-title">Choose your plan</h2>
+              <p class="text-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="row-price">
+              <div class="col-price wow fadeInLeft">
+                <div class="price-box">
+                  <div class="price-body">
+                    <div class="price-inner">
+                      <header class="price-header">
+                        <h4 class="price-title">Basic</h4>
+                        <div class="price">
+                          <strong class="price-currency">$</strong>
+                          <strong class="price-amount">60</strong><span class="price-delimiter">/</span><strong class="price-period">mo</strong>
+                        </div>
+                      </header>
+                      <div class="price-features">
+                        <ul>
+                          <li>Enhanced Security</li>
+                          <li>No Time Tracking</li>
+                          <li>Enhanced Security</li>
+                        </ul>
+                      </div>
+                      <a href="#request" class="btn" data-toggle="modal">Get started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="leading col-price">
+                <div class="price-box">
+                  <div class="price-body">
+                    <div class="price-inner">
+                      <header class="price-header">
+                        <h4 class="price-title">Classic</h4>
+                        <div class="price">
+                          <strong class="price-currency">$</strong>
+                          <strong class="price-amount">100</strong><span class="price-delimiter">/</span><strong class="price-period">mo</strong>
+                        </div>
+                      </header>
+                      <div class="price-features">
+                        <ul>
+                          <li>Enhanced Security</li>
+                          <li>No Time Tracking</li>
+                          <li>Enhanced Security</li>
+                        </ul>
+                      </div>
+                      <a href="#request" class="btn" data-toggle="modal">Get started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-price wow fadeInRight">
+                <div class="price-box">
+                  <div class="price-body">
+                    <div class="price-inner">
+                      <header class="price-header">
+                        <h4 class="price-title">Premium</h4>
+                        <div class="price">
+                          <strong class="price-currency">$</strong>
+                          <strong class="price-amount">150</strong><span class="price-delimiter">/</span><strong class="price-period">mo</strong>
+                        </div>
+                      </header>
+                      <div class="price-features">
+                        <ul>
+                          <li>Enhanced Security</li>
+                          <li>No Time Tracking</li>
+                          <li>Enhanced Security</li>
+                        </ul>
+                      </div>
+                      <a href="#request" class="btn" data-toggle="modal">Get started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe -->
+
+      <section id="subscribe" class="text-center bgc-light section-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2 class="section-title">Subscribe to Newsletter</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            </div>
+          </div>
+          <div class="top-base">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <form id="mc-form">
+                  <div class="input-group">
+                    <input id="mc-email" type="email" class="form-control b-primary" placeholder="Email address">
+                    <span class="input-group-btn">
+                      <button class="btn" type="submit"><i class="text-white fa fa-envelope"></i> <span class="hidden-xs">Subscribe</span></button>
+                    </span>
+                  </div>
+                  <p><label for="mc-email" id="mc-notification"></label></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section id="contacts" class="contacts text-center section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2 class="section-title">Contact us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="row row-columns row-padding">
+              <div class="col-contact column column-padding col-md-4">
+                <i class="icon fa fa-3x fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+93 345 678 91 23,<br> +13 345 678 91 23</p>
+              </div>
+              <div class="col-contact column column-padding col-md-4">
+                <i class="icon fa fa-3x fa-map-marker"></i>
+                <h3>Address</h3>
+                <p>198 West 21th Street,<br> Suite 721 New York NY 10016</p>
+              </div>
+              <div class="col-contact column column-padding col-md-4">
+                <i class="icon fa fa-3x fa-envelope"></i>
+                <h3>Email</h3>
+                <p>simplemail@mail.com<br>vanessamail@mail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-body map-layer">
+          <div id="map" class="map"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="footer text-center">
+      <div class="container">
+        <div class="social">
+          <a href="#" class="fa fa-2x fa-facebook"></a>
+          <a href="#" class="fa fa-2x fa-twitter"></a>
+          <a href="#" class="fa fa-2x fa-pinterest"></a>
+          <a href="#" class="fa fa-2x fa-youtube-play"></a>
+        </div>
+       
+      </div>
+       <div class="copy">
+          © 2016 Vanessa. All rights reserved by <a href="http://themeforest.net/user/murren20" target="_blank">Murren20</a>
+        </div>
+    </footer>
+  </div>
+
+  <!-- Modals -->
+
+  <div id="request" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close">&times;</span>
+            <h2 class="modal-title">Get start now</h2>
+          </div>
+          <div class="modal-body text-center">
+              <form class="form-request js-ajax-form">
+                <div class="row-fields row">
+                  <div class="form-group col-field col-sm-6">
+                      <input type="text" class="form-control" name="name" required placeholder="Name *">
+                  </div>
+                   <div class="form-group col-field col-sm-6">
+                      <input type="email" class="form-control" name="email" required placeholder="Email *">
+                    </div>
+                  <div class="form-group col-field col-sm-12">
+                      <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                  </div>
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-b-white" data-text-hover="Submit">Send request</button>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Modals success -->
+
+  <div id="success" class="modal modal-message fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+            <h2 class="modal-title">Thank you</h2>
+            <p class="modal-subtitle">Your message is successfully sent...</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Modals error -->
+
+  <div id="error" class="modal modal-message fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+             <h2 class="modal-title">Sorry</h2>
+            <p class="modal-subtitle"> Something went wrong </p>
+          </div>
+        </div>
+    </div>
+  </div>
+<!--#include virtual="/parts/footer.html" -->
+

@@ -1,0 +1,49 @@
+@import "config"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@media screen and (max-width: 1200px)
+
+// ≥992px
+@media screen and (max-width: 992px)
+    .about-block
+        h3
+            margin-top: 50px
+// ≥768px
+@media screen and (max-width: 768px)
+    .border-class
+        margin-bottom: 15px 
+    .servise-view-top-page 
+        :not(:nth-child(2))
+            border-left: none !important
+            
+    .servise-view-top-page 
+        :not(:last-child)
+            border-left: none !important
+
+    .section-block
+        div:nth-child(even)	
+            border-top: 1px solid $accent
+            border-bottom: none !important
+            border-left: none !important
+            border-right: none !important
+// ≥576px
+@media screen and (max-width: 576px)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@media screen and (min-width: 576px)
+
+// ≤768px
+@media screen and (min-width: 768px)
+    
+// ≤992px
+@media screen and (min-width: 992px)
+
+// ≤1200px
+@media screen and (min-width: 1200px)
+

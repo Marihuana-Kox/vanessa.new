@@ -1,0 +1,109 @@
+@use 'sass:math'
+@use 'sass:color'
+
+@import config
+@import media
+
+body
+	font-size: 2em
+	line-height: 1.6em
+	p
+		margin-top: 15px
+
+
+h1,h2,h3,h4,h5,h6
+	font-family: poetsen-one, sans-serif 
+	margin-bottom: 15px
+	margin-top: 15px
+
+h1,h4
+	color: #f7f7f7
+h1
+	font-family: d_kallisto, sans-serif
+	font-size: 4.5rem	
+h2
+	font-size: 3rem
+h3
+	font-size: 2.5rem
+h4
+	font-size: 2rem	
+	
+.masked
+	&::after
+		background-color: rgba(0,0,0,0.2)
+
+.masthead
+	background: url("../images/img/bg/scale_1280_shadow.jpg") no-repeat 100% 100%
+
+.servise-view-top-page
+	position: relative
+	margin-top: -7rem
+	color: #f7f7f7
+	:not(:first-child)
+		border-left: 2px dotted white
+	i 
+		font-size: 5rem
+		color: #fff
+		line-height: 1
+
+.border-class
+	background: $accent
+	padding: 0
+	cursor: pointer
+	background-origin: padding-box
+	overflow: hidden
+	&:after
+		content: " "
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: rgba(7, 7, 7, .1)
+		transition: ease-out .3s
+	
+.border-class
+	&:hover
+		&:after
+			transform: translateY(100%)
+
+.mrg
+	margin-left: 0
+	margin-right: 0
+	padding: 0
+	
+.about-block
+	text-align: left 
+	span
+		font-style: italic
+		i
+			margin-right: 10px
+			font-size: 2rem
+			color: $accent		
+
+.servise-view-box
+	margin: 10% 10% 20px
+	outline-width: 5px 
+	:last-child
+		border-left: none
+
+.special-box-inner
+	h4
+		margin-top: 6px
+.align-items-end
+	align-items: flex-end
+
+.column-padding
+	padding-top: 15px
+	padding-bottom: 15px
+
+.section-block
+	div:nth-child(odd)	
+		border-top: 1px solid $accent
+	div:nth-child(even)	
+		border-bottom: 1px solid $accent
+		border-left: 1px solid $accent
+		border-right: 1px solid $accent
+
+.video-section
+	background-color: red

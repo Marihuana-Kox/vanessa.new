@@ -9,7 +9,9 @@
 	"author": "WebDesign Master",
 	"license": "ISC",
 	"devDependencies": {
+		"bootstrap": "^5.2.3",
 		"browser-sync": "^2.26.13",
+		"browsersync-ssi": "^0.2.4",
 		"del": "^6.0.0",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
@@ -22,5 +24,10 @@
 		"gulp-rsync": "0.0.9",
 		"gulp-sass": "^4.1.0",
 		"gulp-uglify": "^3.0.2"
+	},
+	"dependencies": {
+		"cssnano": "^5.1.14",
+		"gulp-postcss": "^9.0.1",
+		"ssi": "^0.3.0"
 	}
 }
